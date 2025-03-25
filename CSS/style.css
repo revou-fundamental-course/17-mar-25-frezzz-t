@@ -2,33 +2,11 @@ div {
     text-align: center;
     border: 1px slategrey;
     margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-bottom: 30px 60px;
+    margin-right: 10px;
+    margin-left: 10px;
     background-color: aquamarine;
 }
- h4 {
+ h2 {
     text-align: center;
  }
- .Persegi {
-    background-color: aqua;
-    border: 250px;
-    color: rgb(56, 37, 13);
-    padding: 10px 45px;
-    text-align: center;
-    text-decoration: dashed;
-    display: inline-block;
-    font-size: 30px;
-    margin: 10px 30px;
-    cursor: pointer;
- }
- .Persegi:hover {
-    background-color: blue;
- }
- .Persegi:active {
-    background-color: black;
-    box-shadow: 0 5px rosybrown;
-    transform: translateY(5px);
- }
-.Persegi {border-radius: 10px;}
-
