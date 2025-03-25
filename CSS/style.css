@@ -10,3 +10,25 @@ div {
  h2 {
     text-align: center;
  }
+
+button {
+    background-color: aqua;
+    text-align: center;
+    color: black;
+    padding: 12px 25px;
+    text-decoration: dashed;
+    display: inline;
+    font-size: medium;
+    margin: 2px 4px;
+    width: 100%;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #337f8d;
+  }
+  
+  button:active {
+    background-color: #297aa8;
+    box-shadow: 0 5px #194a58;
+    transform: translateY(4px);
+  }
