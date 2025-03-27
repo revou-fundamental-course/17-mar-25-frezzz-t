@@ -10,7 +10,7 @@
  h2 {
     text-align: center;
  }
- p {
+ .judul {
   text-align: center;
  }
 
@@ -32,7 +32,14 @@
   padding: 5px;
   border: 2px solid rgb(0, 0, 0);
 }
-
+.k.p {
+  margin-left: 50px 35px;
+  width: 100%;
+  background-color: gray;
+  text-align: center;    
+  margin-right: 50%;
+      
+}
 
 button {
     background-color: aqua;
@@ -43,7 +50,7 @@ button {
     display: inline;
     font-size: medium;
     margin: 2px 4px;
-    width: 100%;
+    width: 95%;
     cursor: pointer;
 }
 button:hover {
@@ -55,3 +62,9 @@ button:hover {
     box-shadow: 0 5px #194a58;
     transform: translateY(4px);
   }
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
